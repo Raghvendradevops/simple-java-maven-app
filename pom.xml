@@ -30,6 +30,23 @@
     </pluginManagement>
     <plugins>
       <plugin>
+        
+ </dependencies>
+      
+<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Raghvendra DevOps repository Release</name>
+	      <url>http://52.88.201.236:8081/repository/simplejavamavenprojectreleaserepo/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Raghvendra DevOps repository Snapshot</name>
+	      <url>http://52.88.201.236:8081/repository/simplejavamavenprojectsnapshot/</url>
+	    </snapshotRepository>
+        
         <!-- Build an executable JAR -->
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
